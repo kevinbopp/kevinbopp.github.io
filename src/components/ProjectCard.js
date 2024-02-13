@@ -58,18 +58,20 @@ export const ProjectCard = ({
           <ArrowLeftRight className="flip-icon-back" onClick={flipCard} />
           
           <Carousel 
-          responsive={responsive} 
-          infinite={false} 
-          showDots={false}
-          draggable={false}
-          containerClass="carousel-container"
-        >
-          {imagesList.map((image, index) => (
-            <div key={index} className="carousel-image-wrapper">
-              <img src={image} alt={`Image ${index + 1}`} style={{ maxWidth: "100%", height: "auto" }} />
-            </div>
-          ))}
-        </Carousel>
+            responsive={responsive} 
+            infinite={false} 
+            showDots={false}
+            draggable={false}
+            containerClass="carousel-container"
+          >
+            {imagesList.map((image, index) => (
+              <div key={index} className="carousel-image-wrapper">
+                <div className="image-container">
+                  <img src={image} alt={`Image ${index + 1}`} className="carousel-image" />
+                </div>
+              </div>
+            ))}
+          </Carousel>
 
           <div className="long-description">
             <span>{longDesc}</span>
