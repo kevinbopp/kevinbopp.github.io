@@ -48,7 +48,7 @@ export const Skills = () => {
                             <span className="hilight"> arrows </span> or
                             <span className="hilight"> swipe </span>below.</p>
                         <Carousel responsive={responsive} infinite={false} className="owl-carousel owl-theme skill-slider">
-                            <SkillItem value={98} middleText={"MS Office"} name={"Proficient"} />
+                            <SkillItem value={100} middleText={"MS Office"} name={"Certified"} />
                             <SkillItem value={95} middleText={"Git"} name={"Proficient"} />
                             <SkillItem value={92} middleText={"Agile"} name={"Proficient"} />
                             <SkillItem value={88} middleText={"HTML/CSS"} name={"Experienced"} />

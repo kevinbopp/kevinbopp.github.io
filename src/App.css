@@ -68,10 +68,45 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
+
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+  opacity: 1;
 }
+
+.social-icon a:hover .hover-email {
+  fill: black;
+  transition: fill 0.3s ease-in-out;
+}
+
+.social-icon a:hover::before {
+  transform: scale(1);
+}
+.hover-email {
+  color: white;
+  transition: color 0.25s ease-in-out;
+  z-index: 500 !important;
+}
+
+.hover-email:hover {
+  color: black !important;
+  z-index: 500 !important;
+}
+
+.social-icon a:hover img {
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.navbar-text button:hover {
+  color: #121212;
+}
+.navbar-text button:hover::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
 span.navbar-text {
     display: flex;
     align-items: center;
@@ -93,10 +128,8 @@ span.navbar-text {
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.social-icon a:hover .hover-email {
-  fill: black;
-  transition: fill 0.3s ease-in-out;
-}
+
+
 
 .social-icon a::before {
     content: "";
@@ -108,29 +141,14 @@ span.navbar-text {
     transform: scale(0);
 	transition: 0.3s ease-in-out;
 }
-.social-icon a:hover::before {
-    transform: scale(1);
-}
+
 .social-icon a img {
 	width: 40%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
 
-.hover-email {
-  color: white;
-  transition: color 0.25s ease-in-out;
-  z-index: 500 !important;
-}
 
-.hover-email:hover {
-  color: black !important;
-  z-index: 500 !important;
-}
-
-.social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
-}
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -156,15 +174,7 @@ span.navbar-text {
   z-index: -1;
   transition: 0.3s ease-in-out;
 }
-.navbar-text button:hover {
-  color: #121212;
-}
-.navbar-text button:hover::before {
-	content: "";
-	width: 100%;
-	height: 100%;
-	position: absolute;
-}
+
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
@@ -313,6 +323,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
+
 .banner button:hover svg {
   color: #00a0f0;
 }
@@ -407,9 +418,26 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 400;
 }
 
-.padMePlease {
-  padding-left: 32px;
-  padding-right: 32px;
+
+
+@media (min-width: 507px) {
+  .padMePlease {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .project p {
+    width: 56%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 506px) {
+  .padMePlease {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .project p {
+    width: 76%;
+  }
 }
 
 
@@ -475,7 +503,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   margin: 14px auto 30px auto;
   text-align: center;
-  width: 56%;
 }
 .project .nav.nav-pills {
   width: 90%;
@@ -568,9 +595,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 0;
   transition: 0.4s ease-in-out;
 }
-.proj-imgbx:hover::before {
-  height: 100%;
+
+@media (hover: hover) {
+  .proj-imgbx:hover::before {
+    height: 100%;
+  }
+
+  .proj-imgbx:hover .proj-txtx {
+    top: 50%;
+    opacity: 1;
+  }
 }
+
+
 .proj-txtx {
   position: absolute;
   text-align: center;
@@ -581,10 +618,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   opacity: 0;
   width: 100%;
 }
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
-}
+
 .proj-txtx h4 {
   font-size: 30px;
   font-weight: 700;
@@ -634,7 +668,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: color 0.25s ease-in-out;
 }
 
-.flip-icon-front:hover {
+@media (hover: hover) {
+  .flip-icon-front:hover {
+    color: #00a0f0;
+  }
+}
+
+.flip-icon-back:hover {
   color: #00a0f0;
 }
 
@@ -649,9 +689,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   cursor: pointer;
 }
 
-.flip-icon-back:hover {
-  color: #00a0f0;
-}
 
 .skill-list-box {
   font-size: 16px !important;
@@ -767,6 +804,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .hover-download:hover {
   color: #00a0f0;
 }
+
 
 
 
