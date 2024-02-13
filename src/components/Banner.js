@@ -60,6 +60,11 @@ export const Banner = ({ scrollToProjects }) => {
     }
   }
 
+  const openResumeInNewTab = () => {
+    const resumeUrl = process.env.PUBLIC_URL + '/Resume.pdf';
+    window.open(resumeUrl, '_blank');
+  };
+
   // PSST. See the button onClick? There's a Download icon that looks amazing for the Resume option...
   return (
     <section className="banner" id="home">
@@ -76,7 +81,7 @@ export const Banner = ({ scrollToProjects }) => {
               Computer Science later this year!<br></br><br></br>Actively seeking an internship related
               to my interests in front-end web and game development, mobile applications, virtual reality, and software.</p>
             <button className="hover-underline" onClick={scrollToProjects}>Check out my projects <ArrowRightCircle size={25}/> </button>
-            <button className="hover-underline" onClick={() => window.open('http://localhost:3000/resume.pdf')}>Download my resume <Download size={25}/> </button>
+            <button className="hover-underline" onClick={() => openResumeInNewTab()}>Download my resume <Download size={25}/> </button>
           </Col>
 
           <Col xs={12} md={6} xl={5}>

@@ -36,6 +36,11 @@ export const NavBar = () => {
         setActiveLink(value);
     }
 
+    const openResumeInNewTab = () => {
+        const resumeUrl = process.env.PUBLIC_URL + '/Resume.pdf';
+        window.open(resumeUrl, '_blank');
+    };
+
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
@@ -75,7 +80,7 @@ export const NavBar = () => {
                                 <img src={navIconGitHub} alt="GitHub Button" id="navImg3" />
                             </a>
                         </div>
-                        <button className="vvd" onClick={() => window.open('http://localhost:3000/resume.pdf')}>
+                        <button className="vvd" onClick={() => openResumeInNewTab()}>
                             <span>My Resume</span>
                         </button>
                     </span>
