@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.2980356f.css",
-    "main.js": "/static/js/main.4b6390d1.js",
+    "main.css": "/static/css/main.673aff88.css",
+    "main.js": "/static/js/main.81b46268.js",
     "static/js/592.6f036c5a.chunk.js": "/static/js/592.6f036c5a.chunk.js",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/header.png": "/static/media/header.a7032708a9e8c02efa01.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.804d4a83e025d56d8c5c.png",
-    "static/media/web1_cover.png": "/static/media/web1_cover.46fc4fd163e394000790.png",
+    "static/media/other2_cover.png": "/static/media/other2_cover.7bfa26eed21d816b4563.png",
+    "static/media/game2_cover.png": "/static/media/game2_cover.acaa3128d0a5bc065425.png",
+    "static/media/web3_cover.png": "/static/media/web3_cover.3c72e2e7a74e25148fdb.png",
+    "static/media/web5_cover.png": "/static/media/web5_cover.57e2234ae0ece31c5d4f.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/game3_cover.png": "/static/media/game3_cover.efd35342d670654251e4.png",
+    "static/media/web4_cover.png": "/static/media/web4_cover.1fb77c0b6e32b1aba5a8.png",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/app1_cover.png": "/static/media/app1_cover.a6a97e2a5e51f79d7eb0.png",
+    "static/media/game1_cover.png": "/static/media/game1_cover.a6a97e2a5e51f79d7eb0.png",
+    "static/media/web1_cover.png": "/static/media/web1_cover.269be0ddafbfc26d6095.png",
+    "static/media/other1_cover.png": "/static/media/other1_cover.f5d9b01b9cfecbf9280d.png",
+    "static/media/web1_1.png": "/static/media/web1_1.d259123e5964fc93683f.png",
+    "static/media/web2_cover.png": "/static/media/web2_cover.a54f1864c5801771a445.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
@@ -20,12 +31,12 @@
     "static/media/nav-indeed.svg": "/static/media/nav-indeed.f5f8eeb42f968152d36d178fb2362c99.svg",
     "index.html": "/index.html",
     "static/media/nav-linkedin.svg": "/static/media/nav-linkedin.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.2980356f.css.map": "/static/css/main.2980356f.css.map",
-    "main.4b6390d1.js.map": "/static/js/main.4b6390d1.js.map",
+    "main.673aff88.css.map": "/static/css/main.673aff88.css.map",
+    "main.81b46268.js.map": "/static/js/main.81b46268.js.map",
     "592.6f036c5a.chunk.js.map": "/static/js/592.6f036c5a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2980356f.css",
-    "static/js/main.4b6390d1.js"
+    "static/css/main.673aff88.css",
+    "static/js/main.81b46268.js"
   ]
 }
