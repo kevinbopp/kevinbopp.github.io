@@ -75,7 +75,7 @@ export const Banner = ({ scrollToProjects }) => {
             
             <h1 className="nameText">{"Kevin Bopp"}</h1>
             <h2 className="nameText moveUp"><span>{text + "|"}</span></h2>
-            <span className="tagline">B.S. Computer Science (anticipated Dec. 2024)</span>
+            <span className="tagline">B.S. Computer Science (anticipated 2024)</span>
             <p>I am a senior undergraduate student at the University of Central Florida with a
               passion for all things software. I am on track to earn my Bachelor's of Science in
               Computer Science later this year!<br></br><br></br>Actively seeking an internship related
