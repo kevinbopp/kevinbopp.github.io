@@ -241,6 +241,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
 }
 
+/* Scales the header image a bit when in tablet view or smaller. */
+.scaledImage {
+  width: 75%;
+}
+
 /* Default font size for name and job titles. */
 .nameText {
   white-space: nowrap;

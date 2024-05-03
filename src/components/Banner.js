@@ -65,7 +65,6 @@ export const Banner = ({ scrollToProjects }) => {
     window.open(resumeUrl, '_blank');
   };
 
-  // PSST. See the button onClick? There's a Download icon that looks amazing for the Resume option...
   return (
     <section className="banner" id="home">
       <Container>
@@ -75,18 +74,24 @@ export const Banner = ({ scrollToProjects }) => {
             
             <h1 className="nameText">{"Kevin Bopp"}</h1>
             <h2 className="nameText moveUp"><span>{text + "|"}</span></h2>
-            <span className="tagline">B.S. Computer Science (anticipated 2024)</span>
-            <p>I am a senior undergraduate student at the University of Central Florida with a
-              passion for all things software. I am on track to earn my Bachelor's of Science in
-              Computer Science later this year!<br></br><br></br>Actively seeking an internship related
-              to my interests in front-end web and game development, mobile applications, virtual reality, and software.</p>
+            <span className="tagline">B.S. Computer Science</span>
+            {window.innerWidth < 768 && (
+            <Col xs={12} md={6} xl={5} className="text-center">
+              <img src={headerImg} alt="Header Image" className="scaledImage" />
+            </Col>
+            )}
+            <p>I am a recent graduate from the University of Central Florida with a
+              passion for all things software.<br></br><br></br>Actively seeking an internship or entry-level position related
+              to my skills and interests in front-end web and game development, mobile applications, virtual reality, and software.</p>
             <button className="hover-underline" onClick={scrollToProjects}>Check out my projects <ArrowRightCircle size={25}/> </button>
             <button className="hover-underline" onClick={() => openResumeInNewTab()}>Download my resume <Download size={25}/> </button>
           </Col>
 
+          {window.innerWidth >= 768 && (
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt="Header Image" />
           </Col>
+          )}
 
         </Row>
       </Container>
