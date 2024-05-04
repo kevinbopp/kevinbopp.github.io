@@ -80,7 +80,7 @@ export const Skills = () => {
                             tools, and programs. My extensive experience comes
                             from team-based deliverables and passion projects
                             in front-end web and videogame development.
-                            <br></br>To view some of my skills in order of experience, use the
+                            <br></br><br></br>To view some of my skills in order of experience, use the
                             <span className="hilight"> arrows </span> or
                             <span className="hilight"> swipe </span>below.</p>
                         <Carousel responsive={responsive} infinite={false}

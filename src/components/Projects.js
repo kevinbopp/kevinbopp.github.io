@@ -5,27 +5,65 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 
 import web1_cover from "../assets/img/web1_cover.png";
 import web1_1 from "../assets/img/web1_1.png";
-//import web1_2 from "../assets/img/web1_2.png";
+import web1_2 from "../assets/img/web1_2.png";
+import web1_3 from "../assets/img/web1_3.png";
+import web1_4 from "../assets/img/web1_4.png";
+import web1_5 from "../assets/img/web1_5.png";
+import web1_6 from "../assets/img/web1_6.png";
+import web1_7 from "../assets/img/web1_7.png";
 
 import web2_cover from "../assets/img/web2_cover.png";
+import web2_1 from "../assets/img/web2_1.png";
+import web2_2 from "../assets/img/web2_2.png";
+import web2_3 from "../assets/img/web2_3.png";
+import web2_4 from "../assets/img/web2_4.png";
+
 import web3_cover from "../assets/img/web3_cover.png";
+import web3_1 from "../assets/img/web3_1.png";
+import web3_2 from "../assets/img/web3_2.png";
+import web3_3 from "../assets/img/web3_3.png";
+
 import web4_cover from "../assets/img/web4_cover.png";
+import web4_1 from "../assets/img/web4_1.png";
+import web4_2 from "../assets/img/web4_2.png";
+import web4_3 from "../assets/img/web4_3.png";
+import web4_4 from "../assets/img/web4_4.png";
+
 import web5_cover from "../assets/img/web5_cover.png";
+import web5_1 from "../assets/img/web5_1.png";
 
 import game1_cover from "../assets/img/game1_cover.png";
+import game1_1 from "../assets/img/game1_1.png";
+import game1_2 from "../assets/img/game1_2.png";
+import game1_3 from "../assets/img/game1_3.gif";
+import game1_4 from "../assets/img/game1_4.png";
+import game1_5 from "../assets/img/game1_5.png";
+import game1_6 from "../assets/img/game1_6.png";
+import game1_7 from "../assets/img/game1_7.png";
+import game1_8 from "../assets/img/game1_8.png";
+
 import game2_cover from "../assets/img/game2_cover.png";
 import game3_cover from "../assets/img/game3_cover.png";
-import game4_cover from "../assets/img/game3_cover.png";
-import game5_cover from "../assets/img/game3_cover.png";
-import game6_cover from "../assets/img/game3_cover.png";
+import game4_cover from "../assets/img/game4_cover.png";
+import game5_cover from "../assets/img/game5_cover.png";
+import game6_cover from "../assets/img/game6_cover.png";
 
-import app1_cover from "../assets/img/app1_cover.png";
-import app2_cover from "../assets/img/app1_cover.png";
+// App 1 images and cover are the same as game 1 (Explore).
+
+import app2_cover from "../assets/img/app2_cover.png";
+import app2_1 from "../assets/img/app2_1.png";
+import app2_2 from "../assets/img/app2_2.png";
+import app2_3 from "../assets/img/app2_3.png";
 
 import other1_cover from "../assets/img/other1_cover.png";
 import other2_cover from "../assets/img/other2_cover.png";
-import other3_cover from "../assets/img/other2_cover.png";
-import other4_cover from "../assets/img/other2_cover.png";
+import other2_1 from "../assets/img/other2_1.png";
+import other2_2 from "../assets/img/other2_2.png";
+import other2_3 from "../assets/img/other2_3.png";
+import other2_4 from "../assets/img/other2_4.png";
+
+import other3_cover from "../assets/img/other3_cover.png";
+import other4_cover from "../assets/img/other4_cover.png";
 
 // PROJECTS
 
@@ -123,10 +161,9 @@ let other2_dl = "";
 
 // No YT unless compilation made in future of models.
 // No git obviously, 3D models.
-// Dl link links to ALL 3d models in drive folder.
 let other3_git = "";
 let other3_yt = "";
-let other3_dl = ""; // Fill me in! Google Drive link
+let other3_dl = "https://drive.google.com/drive/folders/1KmiPgEnpfhKHjJrWxxKu-W_pX8TCZwl_?usp=sharing";
 
 // Other Project 4 - Armonios Oasis TEA@UCF
 
@@ -147,7 +184,7 @@ export const Projects = () => {
       longDesc: "Prototyped in Figma and implemented the front-end of a responsive web application for registered users to play chess.",
       coverImg: web1_cover,
       skillsList: ["Jira", "Figma", "Git", "React", "HTML", "CSS", "TypeScript", "Node.js"],
-      imagesList: [web1_1, web1_cover],
+      imagesList: [web1_1, web1_2, web1_3, web1_4, web1_5, web1_6, web1_7],
       gitLink: web1_git,dlLink: web1_dl,
     },
     {
@@ -157,7 +194,7 @@ export const Projects = () => {
       longDesc: "Developed the front-end of a basic site that performs Create-Read-Update-Delete (CRUD) operations to view contacts.",
       coverImg: web2_cover,
       skillsList: ["Git", "HTML", "CSS", "JavaScript"],
-      imagesList: [web2_cover],
+      imagesList: [web2_1, web2_2, web2_3, web2_4],
       gitLink: web2_git, dlLink: web2_dl,
     },
     {
@@ -167,7 +204,7 @@ export const Projects = () => {
       longDesc: "Designed a fully-responsive website from scratch to showcase myself professionally, as well as my skills and projects.",
       coverImg: web3_cover,
       skillsList: ["React", "Git", "HTML", "CSS", "JavaScript"],
-      imagesList: [web3_cover],
+      imagesList: [web3_1, web3_2, web3_3],
       gitLink: web3_git, dlLink: web3_dl,
     },
     {
@@ -177,17 +214,17 @@ export const Projects = () => {
       longDesc: "Given a basic HTML template file, filled in the remaining requirements as per a fictional client's requests.",
       coverImg: web4_cover,
       skillsList: ["HTML", "CSS", "JavaScript"],
-      imagesList: [web4_cover],
+      imagesList: [web4_1, web4_2, web4_3, web4_4],
       gitLink: web4_git, dlLink: web4_dl,
     },
     {
       title: "Bingo Board",
       category: "Small Web Component",
       desc: "Small bingo board component",
-      longDesc: "Implemented a small bingo board that generates random numbers using JavaScript in a web page.",
+      longDesc: "Created a small bingo board that generates with random numbers using JavaScript on a web page.",
       coverImg: web5_cover,
       skillsList: ["HTML", "CSS", "JavaScript"],
-      imagesList: [web5_cover],
+      imagesList: [web5_1],
       gitLink: web5_git, dlLink: web5_dl,
     },
   ];
@@ -200,7 +237,7 @@ export const Projects = () => {
       longDesc: "Designed and coded the front-end UI and educational games of a cross-platform mobile app to teach basic math to children.",
       coverImg: game1_cover,
       skillsList: ["Jira", "Figma", "Git", "Flutter", "Dart", "JavaScript"],
-      imagesList: [game1_cover],
+      imagesList: [game1_1, game1_2, game1_3, game1_4, game1_5, game1_6, game1_7, game1_8],
       gitLink: game1_git, ytLink: game1_yt, dlLink: game1_dl,
     },
     {
@@ -209,7 +246,7 @@ export const Projects = () => {
       desc: "Semester-long 3D horror game",
       longDesc: "Led the development of a large videogame in a team of three. Handled various character systems and level design.",
       coverImg: game2_cover,
-      skillsList: ["Unity3D", "C#", "Trello", "QA Testing"],
+      skillsList: ["Unity3D", "C#", "Blender", "Trello", "QA Testing"],
       imagesList: [game2_cover, ],
       dlLink: game2_dl,
     },
@@ -217,7 +254,7 @@ export const Projects = () => {
       title: "Farmhand",
       category: "3D Godot Game",
       desc: "Fall 2022 Spooky Game Jam",
-      longDesc: "COPY PASTE DESC, CHANGE SKILLS LIST, ensure skills here and descriptions on HANDSHAKE say GDScript not C#",
+      longDesc: "Developed a character motion system from scratch while learning GDScript and Godot in under 48 hours for a game jam.",
       coverImg: game3_cover,
       skillsList: ["Godot", "GDScript"],
       imagesList: [game3_cover, ],
@@ -235,21 +272,21 @@ export const Projects = () => {
     },
     {
       title: "2D Platformer",
-      category: "Info coming soon",
-      desc: "Info coming soon",
-      longDesc: "Info coming soon",
+      category: "2D Unity Game",
+      desc: "Unity game using standard assets",
+      longDesc: "Developed a fun, simple platformer game in Unity back in high school using the Standard Assets package and sprites.",
       coverImg: game5_cover,
-      skillsList: ["Coming soon"],
+      skillsList: ["Unity3D", "C#"],
       imagesList: [game5_cover, ],
       gitLink: game5_git, dlLink: game5_dl,
     },
     {
       title: "Simon Says",
-      category: "Info coming soon",
-      desc: "Info coming soon",
-      longDesc: "Info coming soon",
+      category: "2D VisualBasic Game",
+      desc: "Simple color-clicking game",
+      longDesc: "One of the first games I ever made; click on the correct color when told to before the time runs out. Written in VisualBasic.",
       coverImg: game6_cover,
-      skillsList: ["Coming soon"],
+      skillsList: ["VisualBasic", ".NET"],
       imagesList: [game6_cover, ],
       gitLink: game6_git, dlLink: game6_dl,
     },
@@ -261,19 +298,19 @@ export const Projects = () => {
       category: "Flutter Mobile App",
       desc: "Educational mobile app & games",
       longDesc: "Designed and coded the front-end UI and educational games of a cross-platform mobile app to teach basic math to children.",
-      coverImg: app1_cover,
+      coverImg: game1_cover,
       skillsList: ["Jira", "Figma", "Git", "Flutter", "Dart", "JavaScript"],
-      imagesList: [app1_cover],
+      imagesList: [game1_1, game1_2, game1_3, game1_4, game1_5, game1_6, game1_7, game1_8],
       gitLink: app1_git, ytLink: app1_yt, dlLink: app1_dl,
     },
     {
       title: "Connect Four",
       category: "Android Mobile App",
       desc: "Simple game for Android",
-      longDesc: "Developed a simple Android application in Java for playing Connect Four on the same phone.",
+      longDesc: "Developed a simple Android application in Java for playing Connect Four on a single phone.",
       coverImg: app2_cover,
       skillsList: ["Git", "Java"],
-      imagesList: [app2_cover],
+      imagesList: [app2_1, app2_2, app2_3],
       gitLink: app2_git,
     },
   ];
@@ -296,25 +333,26 @@ export const Projects = () => {
       longDesc: "Wrote pathfinding code to allow a Texas Instruments robot to successfully navigate a series of random mazes quickly.",
       coverImg: other2_cover,
       skillsList: ["C"],
-      imagesList: [other2_cover, ],
+      imagesList: [other2_1, other2_2, other2_3, other2_4,],
       gitLink: other2_git, ytLink: other2_yt,
     },
     {
-      title: "Blender Modeling",
-      category: "Info coming soon",
-      desc: "Info coming soon",
-      longDesc: "Info coming soon",
+      title: "3D Modeling",
+      category: "Videogame Models",
+      desc: "Learning 3D asset creation",
+      longDesc: "I often make 3D models for my games in my spare time. I am learning Blender & hard surface modeling for asset creation.",
       coverImg: other3_cover,
-      skillsList: ["Info coming soon"],
+      skillsList: ["Blender"],
       imagesList: [other3_cover, ],
+      dlLink: other3_dl,
     },
     {
       title: "Armonios Oasis",
-      category: "Info coming soon",
-      desc: "Info coming soon",
-      longDesc: "Info coming soon",
+      category: "TEA@UCF Project",
+      desc: "Spring 2022 TEA Competition",
+      longDesc: "Helped brainstorm the storyline and modeled 3D concepts of a custom theme park land for the TEA@UCF Design Competition.",
       coverImg: other4_cover,
-      skillsList: ["Info coming soon"],
+      skillsList: ["Blender"],
       imagesList: [other4_cover, ],
     },
   ];
