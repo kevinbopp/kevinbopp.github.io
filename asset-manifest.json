@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.381a7428.css",
-    "main.js": "/static/js/main.805eeaa2.js",
+    "main.js": "/static/js/main.08574325.js",
     "static/js/592.6f036c5a.chunk.js": "/static/js/592.6f036c5a.chunk.js",
     "static/media/game1_3.gif": "/static/media/game1_3.9fbbfbf4a2ac29349149.gif",
     "static/media/game1_8.png": "/static/media/game1_8.b0ab517f074e075a32c3.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/header.png": "/static/media/header.a7032708a9e8c02efa01.png",
+    "static/media/web0_cover.png": "/static/media/web0_cover.df7d6aee47ebb69e818a.png",
     "static/media/game1_cover.png": "/static/media/game1_cover.82ceab9b7d7a959e94b6.png",
+    "static/media/web0_1.png": "/static/media/web0_1.9accf02830fe2f7a8654.png",
     "static/media/game1_1.png": "/static/media/game1_1.22e528d2a1c157e1e2fa.png",
     "static/media/game1_4.png": "/static/media/game1_4.5a2186ec7aebf04570ee.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.8657f745cc43ad784b63.png",
@@ -70,11 +72,11 @@
     "index.html": "/index.html",
     "static/media/nav-linkedin.svg": "/static/media/nav-linkedin.721d5414c26365f117e71d46b6641cb2.svg",
     "main.381a7428.css.map": "/static/css/main.381a7428.css.map",
-    "main.805eeaa2.js.map": "/static/js/main.805eeaa2.js.map",
+    "main.08574325.js.map": "/static/js/main.08574325.js.map",
     "592.6f036c5a.chunk.js.map": "/static/js/592.6f036c5a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.381a7428.css",
-    "static/js/main.805eeaa2.js"
+    "static/js/main.08574325.js"
   ]
 }
