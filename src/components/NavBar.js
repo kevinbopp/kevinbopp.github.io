@@ -70,7 +70,7 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="https://www.linkedin.com/in/kevin-bopp-34a471292" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/kevincbopp" target="_blank" rel="noopener noreferrer">
                                 <img src={navIconLinkedIn} alt="LinkedIn Button" id="navImg1"/>
                             </a>
                             <a href="mailto:kevincbopp@gmail.com" target="_blank" rel="noopener noreferrer" className="hover-email-wrapper">

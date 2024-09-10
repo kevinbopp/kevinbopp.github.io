@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
+import web0_cover from "../assets/img/web0_cover.png";
+import web0_1 from "../assets/img/web0_1.png";
+
 import web1_cover from "../assets/img/web1_cover.png";
 import web1_1 from "../assets/img/web1_1.png";
 import web1_2 from "../assets/img/web1_2.png";
@@ -67,6 +70,11 @@ import other4_cover from "../assets/img/other4_cover.png";
 
 // PROJECTS
 
+// Web Project 0 - Naples Ice Cream Shoppe Website
+let web0_git = "";
+let web0_yt = "";
+let web0_dl = "";
+
 // Web Project 1 - Tactic Chess
 
 let web1_git = "https://github.com/kevinbopp/ChessGameApp";
@@ -106,7 +114,7 @@ let game1_dl = "https://explorelearn.netlify.app/resources";
 // Game Project 2 - Camp Croatoan
 
 //let game2_git = "";
-//let game2_yt = "";
+let game2_yt = "https://www.youtube.com/watch?v=_7Q-bVHPFRo";
 let game2_dl = "https://drive.google.com/file/d/1Opo61_nRXUu-5peBiO5x7_GIJ8ZYTi5x/view?usp=sharing";
 
 // Game Project 3 - Farmhand
@@ -178,6 +186,16 @@ export const Projects = () => {
 
   const webProjects = [
     {
+      title: "N.I.C.S. Website",
+      category: "Responsive React Website",
+      desc: "Responsive web application",
+      longDesc: "Prototyped in Figma and implemented an informative, responsive website for the Naples Ice Cream Shoppe.",
+      coverImg: web0_cover,
+      skillsList: ["Figma", "Git", "React", "HTML", "CSS", "JavaScript"],
+      imagesList: [web0_1],
+      gitLink: web0_git, dlLink: web0_dl,
+    },
+    {
       title: "Tactic Chess",
       category: "Full Stack React Website",
       desc: "Full stack web application",
@@ -248,7 +266,7 @@ export const Projects = () => {
       coverImg: game2_cover,
       skillsList: ["Unity3D", "C#", "Blender", "Trello", "QA Testing"],
       imagesList: [game2_cover, ],
-      dlLink: game2_dl,
+      dlLink: game2_dl, ytLink: game2_yt,
     },
     {
       title: "Farmhand",
